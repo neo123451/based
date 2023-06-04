@@ -5,3 +5,11 @@ This project is meant for simple calculations,such as (plus),(minus),(multiply) 
 
 #### Table of contents:
 
+
+#### Installation:
+
+
+#### Usage:
+
+
+#### Credits
