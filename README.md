@@ -25,5 +25,9 @@ In the python file there are commments to each step of the creation for the calc
 
 
 #### Credits
-Here is the url for the file:
+Here is the url to my readme file:
+https://github.com/neo123451/based/edit/main/README.md
+Here is the uploaded file where you can find the program:
+https://github.com/neo123451/calculate.py
+
 
