@@ -25,23 +25,23 @@ while True:
                 print("Error retry")
                 continue
             # Ask user for the sum,minus,divide
-            opert = input("What would you like to do (+,-,*,/): ")
+            operation = input("What would you like to do (+,-,*,/): ")
             # Use if and elif statements to make sure you get the anwser of the numbers the user input
-            if opert == "+":
+            if operation == "+":
                 answer = sum(number1,number2)
                 print(f" The is your sum: {answer}")
-            elif opert == "-":
+            elif operation == "-":
                 answer = minus(number1,number2)
                 print(f"The is your minus: {answer}")
-            elif opert == "*":
+            elif operation == "*":
                 answer = multi(number1,number2)
                 print(f"This is your multiply: {answer} ")
-            elif opert == "/":
+            elif operation == "/":
                 answer = divide(number1,number2)
                 print(f"This is your divide: {answer}")
 # open the file and append all your calculation to the file
             with open("output.txt","a") as file:
-                file.write("\n"+str(number1)+" "+opert+" "+str(number2)+" "+ "="+" "+str(answer))
+                file.write("\n"+str(number1)+" "+operation+" "+str(number2)+" "+ "="+" "+str(answer))
 # after the user got his anwser return to main menu
                 return Menu
 # make a function to view all calculations
